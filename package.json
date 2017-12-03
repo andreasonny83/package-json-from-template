@@ -1,6 +1,6 @@
 {
   "name": "package-json-from-template",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Generate a package.json file from a template",
   "scripts": {
     "ava": "ava",
@@ -15,15 +15,13 @@
     "node": ">=4"
   },
   "bin": {
-    "pack-gen": "bin/cli.js"
+    "pack-gen": "./bin/cli.js"
   },
-  "files": [
-    "cli.js"
-  ],
   "keywords": [
-    "cli-app",
-    "cli",
-    "package"
+    "package",
+    "package-json",
+    "generator",
+    "package-json-generator"
   ],
   "author": {
     "name": "Andrea SonnY",

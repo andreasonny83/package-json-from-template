@@ -1,4 +1,4 @@
-# Package.json From Template
+# Package.json From Template [![Build Status](https://travis-ci.org/andreasonny83/package-json-from-template.svg?branch=master)](https://travis-ci.org/andreasonny83/package-json-from-template)
 
 > Generate a package.json file from a template
 

@@ -4,20 +4,17 @@
 
 ## Why
 
-- You might find this project useful if you need to generate a node module with different dependencies which uses a different package.json configuration from your repository configuration
+- You might find this project useful if you need to generate a node module generates inside a different folder in your project but you want to avoid manually updating the version number before each release
 - It saves you time
 - It's DRY
 
 ## When to use it
 
-Sometimes you create a repository that generates a packaged version of your
-project and you want that to have it own `package.json` file but the same
-name and version inherited from your original project.
+Sometimes you create a repository that generates a packaged version of your project and you want that to have it own `package.json` file but the same name and version inherited from your original project.
 
 ## Install
 
-If you want to install package-json-from-template globally,
-use the follow command from your terminal:
+If you want to install package-json-from-template globally, use the follow command from your terminal:
 
 ```
 $ npm install -g package-json-from-template
@@ -71,10 +68,8 @@ call after your build task is completed.
 }
 ```
 
-Note that your `dist` folder will need to contain a
-`package.tpl.json` file to use as a template.
-If you wish to use a template file sitting elsewhere, you can use
-the `template` flag and specify a different path like this:
+Note that your `dist` folder will need to contain a `package.tpl.json` file to use as a template.
+If you wish to use a template file sitting elsewhere, you can use the `template` flag and specify a different path like this:
 
 ```json
 "scripts": {

@@ -4,7 +4,7 @@
 
 ## Why
 
-- You might find this project useful if you need to generate a node module generates inside a different folder in your project but you want to avoid manually updating the version number before each release
+- You might find this project useful if you need to generate a node module inside a different folder in your project but you want to avoid manually updating the version number before each release
 - It saves you time
 - It's DRY
 

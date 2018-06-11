@@ -70,7 +70,7 @@ if (!fs.existsSync(src)) {
 generatePkg(src, tpl)
   .then(res => {
     writePkg.sync(dest, res);
-    log.info(`package.json correnctly generated inside ${path.resolve(process.cwd(), cli.input[0])}.`);
+    log.info(`package.json correctly generated inside ${path.resolve(process.cwd(), cli.input[0])}.`);
   })
   .catch(err => {
     log.error(err);
